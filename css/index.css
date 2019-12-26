@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(50, 58, 71);
+
+}
+
+nav {
+    background-color: rgb(33, 37, 44);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.text-button {
+    text-decoration: none;
+    color: rgb(78, 204, 221);
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 12px;
+    text-align: center;
+    
+}
+
+
+.button { 
+    
+    width: 210px;
+    height: 46px;
+    color: rgb(78, 204, 221);
+    border-radius: 8px;
+    background-color: rgb(33, 37, 44);
+}
+
+.text-title {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 15px;
+    padding: 4px;
+    color: rgb(29, 206, 67);
+    font-size: 20px;
+    text-align: center;
+    
+}  
+
+h1 {
+    color: rgb(76, 83, 90);
+}
+
+
+.text-container {
+    margin-top: 20px;
+
+}
+
+.painel {
+    margin-top: 20px;
+}
+
+.academica {
+    margin-top: 30px;
+    color: rgb(32, 167, 185);
+}
+
+.footer-page {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(33, 37, 44);
+}
+
+.icon-footer {
+    text-decoration: none;
+    padding: 1px;
+    margin-top: 10px;
+}
+
+.btn {
+    color: rgb(78, 204, 221);
+    border-radius: 8px;
+    background-color: rgb(33, 37, 44);
+}
+
+.card {
+    border:3px inset rgb(78, 204, 221);
+    
+}
+
+.project {
+    margin-top: 60px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(78, 204, 221);
+    background-color: rgb(33, 37, 44);
+
+}
+
+  .squares li {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.15);
+    display: block;
+    position: absolute;
+    bottom: -40px;
+    animation: up 2s infinite alternate;
+    z-index:-1
+  }
+  
+  @keyframes up {
+    from {
+      opacity: 0;
+      transform: translateY(0);
+    }
+    50% {
+      opacity: 1;
+    }
+    to {
+      transform: translateY(-800px) rotate(960deg);
+    }
+  }
+
+
+
